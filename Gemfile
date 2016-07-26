@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gem "sinatra"
+gem "sinatra-contrib"
+gem "activerecord"
+gem "sqlite3"
+gem "pry-byebug"
+gem "better_errors"
+gem "binding_of_caller"
+gem "faker"
+gem "rake"
+gem "rspec"

@@ -1,0 +1,14 @@
+<ul class="list-unstyled">
+<% @posts.each do |post| %>
+  <li>
+    <h3>
+      <a href="<%= post.url %>" target="_blank">
+        <%= post.name %>
+        <small>
+          (<%= post.votes %>)
+        </small>
+      </a>
+    </h3>
+  </li>
+<% end %>
+</ul>
